@@ -1,4 +1,9 @@
 package manager;
 
-public class HelperUser {
+import org.openqa.selenium.WebDriver;
+
+public class HelperUser extends HelperBase{
+    public HelperUser(WebDriver driver) {
+        super(driver);
+    }
 }
