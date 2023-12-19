@@ -29,4 +29,15 @@ public class HelperBase {
         List<WebElement> list = driver.findElements(locator);
         return list.size() > 0;
     }
+    public String getMessage() {
+        pause(8000);
+        return driver.findElement(By.cssSelector(".dialog-container>h2")).getText();
+    }
+    public void pause(int time){
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+    }
 }
