@@ -30,7 +30,7 @@ public class HelperBase {
         return list.size() > 0;
     }
     public String getMessage() {
-        pause(8000);
+        pause(4000);
         return driver.findElement(By.cssSelector(".dialog-container>h2")).getText();
     }
     public void pause(int time){
@@ -39,5 +39,12 @@ public class HelperBase {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+    }
+    public boolean isYallaButtonNotActive() {
+        boolean res = isElementPresent(By.cssSelector("button[disabled]"));
+
+        WebElement element = driver.findElement(By.cssSelector("button[type='submit']"));
+        boolean result = element.isEnabled();
+        return res && !result;
     }
 }
