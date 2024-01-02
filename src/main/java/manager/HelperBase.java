@@ -47,4 +47,7 @@ public class HelperBase {
         boolean result = element.isEnabled();
         return res && !result;
     }
+    public void submit() {
+        click(By.xpath("//*[@type='submit']"));
+    }
 }
