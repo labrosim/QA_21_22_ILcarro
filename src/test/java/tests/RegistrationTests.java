@@ -38,32 +38,32 @@ public class RegistrationTests extends TestBase {
         app.getHelperUser().clickOKButton();
     }
 
-//    @Test
-//    public void registrationWrongEmail(){
-//        User user = new User().withFirstName("qwer").withLastName("ee").
-//                setEmail("qwed@jcom").setPassword("Qwerty1!");
-//        app.getHelperUser().openRegistrationForm();
-//        app.getHelperUser().fillRegistrationForm(user);
-//        app.getHelperUser().checkPolicy();
-//        app.getHelperUser().submit();
-//
-//
-//    }
-//    @Test
-//    public void registrationWrongPassword(){
-//        User user = new User().withFirstName("qwer").withLastName("ee").
-//                setEmail("qwed@j.com").setPassword("qwerty1!");
-//        app.getHelperUser().openRegistrationForm();
-//        app.getHelperUser().fillRegistrationForm(user);
-//        app.getHelperUser().checkPolicy();
-//        app.getHelperUser().submit();
-//    }
-//    @Test
-//    public void registrationWithoutCheckBox(){
-//        User user = new User().withFirstName("qwer").withLastName("ee").
-//                setEmail("qwed@j.com").setPassword("Qwerty1!");
-//        app.getHelperUser().openRegistrationForm();
-//        app.getHelperUser().fillRegistrationForm(user);
-//        app.getHelperUser().submit();
-//    }
+    @Test
+    public void registrationWrongEmail(){
+        User user = new User().withFirstName("qwer").withLastName("ee").
+                setEmail("qwed@jcom").setPassword("Qwerty1!");
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicy();
+        app.getHelperUser().submit();
+
+
+    }
+    @Test
+    public void registrationWrongPassword(){
+        User user = new User().withFirstName("qwer").withLastName("ee").
+                setEmail("qwed@j.com").setPassword("qwerty1!");
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().checkPolicy();
+        app.getHelperUser().submit();
+    }
+    @Test
+    public void registrationWithoutCheckBox(){
+        User user = new User().withFirstName("qwer").withLastName("ee").
+                setEmail("qwed@j.com").setPassword("Qwerty1!");
+        app.getHelperUser().openRegistrationForm();
+        app.getHelperUser().fillRegistrationForm(user);
+        app.getHelperUser().submit();
+    }
 }
