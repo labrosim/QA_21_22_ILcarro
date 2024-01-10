@@ -2,12 +2,10 @@ package models;
 
 import lombok.*;
 
-
 @Setter
 @Getter
 @ToString
 @Builder
-
 
 public class Car {
     private String location;
@@ -20,6 +18,5 @@ public class Car {
     private String carRegNumber;
     private double price;
     private String about;
-
 
 }

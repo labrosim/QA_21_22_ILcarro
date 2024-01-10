@@ -6,17 +6,19 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 public class ApplicationManager {
-    WebDriver driver;
+
+    WebDriver wd;
+
     HelperUser helperUser;
     HelperCar helperCar;
 
     public void init(){
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.navigate().to("https://ilcarro.web.app/search");
-        helperUser = new HelperUser(driver);
-        helperCar = new HelperCar(driver);
+        wd = new ChromeDriver();
+        wd.manage().window().maximize();
+        wd.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
+        wd.navigate().to("https://ilcarro.web.app/");
+        helperUser = new HelperUser(wd);
+        helperCar = new HelperCar(wd);
     }
 
     public HelperCar getHelperCar() {
@@ -24,13 +26,10 @@ public class ApplicationManager {
     }
 
     public HelperUser getHelperUser() {
-
         return helperUser;
     }
 
     public void stop(){
-        driver.quit();
+        wd.quit();
     }
-
-
 }
