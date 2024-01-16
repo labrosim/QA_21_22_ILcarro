@@ -1,0 +1,33 @@
+19:42:31.159  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+19:42:32.627  INFO  manager.ApplicationManager - The link --> https://ilcarro.web.app/search
+19:42:32.674  INFO  tests.TestBase - Name of method --> searchCurrentYearSuccess
+19:42:32.677  INFO  manager.WDListener - before find element By.id: city
+19:42:32.705  INFO  manager.WDListener - element found success By.id: city
+19:42:32.715  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> id: city]
+19:42:32.812  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> id: city]
+19:42:33.090  INFO  manager.WDListener - before find element By.cssSelector: div.pac-item
+19:42:33.447  INFO  manager.WDListener - element found success By.cssSelector: div.pac-item
+19:42:33.449  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> css selector: div.pac-item]
+19:42:33.519  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> css selector: div.pac-item]
+19:42:33.520  INFO  manager.WDListener - before find element By.id: dates
+19:42:33.554  INFO  manager.WDListener - element found success By.id: dates
+19:42:33.555  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> id: dates]
+19:42:33.710  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> id: dates]
+19:42:33.741  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+19:42:33.772  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+19:42:33.772  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> css selector: button[aria-label ='Next month']]
+19:42:33.861  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> css selector: button[aria-label ='Next month']]
+19:42:33.861  INFO  manager.WDListener - before find element By.xpath: //div[text()=' 20 ']
+19:42:33.893  INFO  manager.WDListener - element found success By.xpath: //div[text()=' 20 ']
+19:42:33.893  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> xpath: //div[text()=' 20 ']]
+19:42:33.989  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> xpath: //div[text()=' 20 ']]
+19:42:33.991  INFO  manager.WDListener - before find element By.xpath: //div[text()=' 18 ']
+19:42:34.019  INFO  manager.WDListener - element found success By.xpath: //div[text()=' 18 ']
+19:42:34.020  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> xpath: //div[text()=' 18 ']]
+19:42:34.109  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> xpath: //div[text()=' 18 ']]
+19:42:34.109  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+19:42:34.143  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+19:42:34.143  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> xpath: //button[@type='submit']]
+19:42:34.275  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (156a3dcd158104fc9726bef16758025f)] -> xpath: //button[@type='submit']]
+19:42:34.275  INFO  manager.WDListener - before find element By.cssSelector: a.car-container
+19:42:38.435  INFO  manager.WDListener - element found success By.cssSelector: a.car-container

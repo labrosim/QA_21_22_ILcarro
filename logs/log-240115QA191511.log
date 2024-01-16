@@ -1,0 +1,66 @@
+19:15:13.877  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+19:15:15.356  INFO  manager.ApplicationManager - The link --> https://ilcarro.web.app/search
+19:15:15.402  INFO  tests.TestBase - Name of method --> searchAnyPeriodSuccess
+19:15:15.405  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+19:15:15.440  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+19:15:15.448  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> xpath: //button[@type='submit']]
+19:15:15.517  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> xpath: //button[@type='submit']]
+19:15:15.517  INFO  manager.WDListener - before find element By.cssSelector: a.car-container
+19:15:30.575  INFO  manager.WDListener - element found success By.cssSelector: a.car-container
+19:15:30.586  INFO  tests.TestBase - Name of method --> searchCurrentMonthSuccess
+19:15:30.587  INFO  manager.WDListener - before find element By.id: city
+19:15:30.613  INFO  manager.WDListener - element found success By.id: city
+19:15:30.614  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> id: city]
+19:15:30.721  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> id: city]
+19:15:30.992  INFO  manager.WDListener - before find element By.cssSelector: div.pac-item
+19:15:31.392  INFO  manager.WDListener - element found success By.cssSelector: div.pac-item
+19:15:31.393  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> css selector: div.pac-item]
+19:15:31.457  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> css selector: div.pac-item]
+19:15:31.457  INFO  manager.WDListener - before find element By.id: dates
+19:15:31.478  INFO  manager.WDListener - element found success By.id: dates
+19:15:31.479  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> id: dates]
+19:15:31.641  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> id: dates]
+19:15:31.641  INFO  manager.WDListener - before find element By.xpath: //div[text()=' 15 ']
+19:15:31.666  INFO  manager.WDListener - element found success By.xpath: //div[text()=' 15 ']
+19:15:31.667  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> xpath: //div[text()=' 15 ']]
+19:15:31.777  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> xpath: //div[text()=' 15 ']]
+19:15:31.778  INFO  manager.WDListener - before find element By.xpath: //div[text()=' 18 ']
+19:15:31.816  INFO  manager.WDListener - element found success By.xpath: //div[text()=' 18 ']
+19:15:31.817  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> xpath: //div[text()=' 18 ']]
+19:15:31.911  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> xpath: //div[text()=' 18 ']]
+19:15:31.912  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+19:15:31.944  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+19:15:31.946  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> xpath: //button[@type='submit']]
+19:15:32.076  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> xpath: //button[@type='submit']]
+19:15:32.077  INFO  manager.WDListener - before find element By.cssSelector: a.car-container
+19:15:36.306  INFO  manager.WDListener - element found success By.cssSelector: a.car-container
+19:15:36.331  INFO  tests.TestBase - Name of method --> searchCurrentYearSuccess
+19:15:36.332  INFO  manager.WDListener - before find element By.id: city
+19:15:36.360  INFO  manager.WDListener - element found success By.id: city
+19:15:36.360  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> id: city]
+19:15:36.564  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> id: city]
+19:15:39.283  INFO  manager.WDListener - before find element By.cssSelector: div.pac-item
+19:15:39.460  INFO  manager.WDListener - element found success By.cssSelector: div.pac-item
+19:15:39.461  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> css selector: div.pac-item]
+19:15:39.654  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (1df10e38fb03bfc93ed68f11b2201e7b)] -> css selector: div.pac-item]
+19:15:39.655  INFO  manager.WDListener - before find element By.id: dates
+19:15:54.773  INFO  manager.WDListener - We have PROBLEMS!
+19:15:54.775  INFO  manager.WDListener - no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=120.0.6099.217)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1df10e38fb03bfc93ed68f11b2201e7b
+*** Element info: {Using=id, value=dates}
+19:15:54.778  INFO  manager.WDListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#dates"}
+  (Session info: chrome=120.0.6099.217)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.217, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52231}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1df10e38fb03bfc93ed68f11b2201e7b
+*** Element info: {Using=id, value=dates}
+19:15:56.152  INFO  manager.WDListener - This is the link to the screenshot with error --> src/test/resources/screenshots/screen-954.png

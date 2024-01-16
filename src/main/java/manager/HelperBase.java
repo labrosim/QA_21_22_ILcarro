@@ -37,6 +37,11 @@ public class HelperBase {
 
     }
 
+    public String getElementAttribute(By locator, String attributeName) {
+        WebElement element = wd.findElement(locator);
+        return element.getAttribute(attributeName);
+    }
+
 
     public void clearNew(WebElement element) {
         element.sendKeys(" ");

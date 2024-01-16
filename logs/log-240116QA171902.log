@@ -1,0 +1,15 @@
+17:19:04.854  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+17:19:06.815  INFO  manager.ApplicationManager - The link --> https://ilcarro.web.app/search
+17:19:06.858  INFO  tests.TestBase - Name of method --> searchAnyPeriodSuccess
+17:19:06.861  INFO  manager.WDListener - before find element By.id: city
+17:19:06.898  INFO  manager.WDListener - element found success By.id: city
+17:19:06.904  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (6ccebf5a1445b83b92d87e17e80a7045)] -> id: city]
+17:19:06.996  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (6ccebf5a1445b83b92d87e17e80a7045)] -> id: city]
+17:19:07.263  INFO  manager.WDListener - before find element By.cssSelector: div.pac-item
+17:19:07.675  INFO  manager.WDListener - element found success By.cssSelector: div.pac-item
+17:19:07.675  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (6ccebf5a1445b83b92d87e17e80a7045)] -> css selector: div.pac-item]
+17:19:07.754  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (6ccebf5a1445b83b92d87e17e80a7045)] -> css selector: div.pac-item]
+17:19:07.754  INFO  manager.WDListener - before find element By.id: dates
+17:19:07.788  INFO  manager.WDListener - element found success By.id: dates
+17:19:07.788  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (6ccebf5a1445b83b92d87e17e80a7045)] -> id: dates]
+17:19:07.948  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (6ccebf5a1445b83b92d87e17e80a7045)] -> id: dates]
