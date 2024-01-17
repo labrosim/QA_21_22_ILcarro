@@ -89,4 +89,16 @@ public class HelperBase {
         boolean result = element.isEnabled();
         return res && !result;
     }
+
+    public void clearTextBox(By locator) {
+        WebElement el = wd.findElement(locator);
+        String os = System.getProperty("os.name");
+        System.out.println(os);
+        if (os.startsWith("Win")) {
+            el.sendKeys(Keys.CONTROL, "a");
+        } else {
+            el.sendKeys(Keys.COMMAND, "a");
+        }
+        el.sendKeys(Keys.DELETE);
+    }
 }

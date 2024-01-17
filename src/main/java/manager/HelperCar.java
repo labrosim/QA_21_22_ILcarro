@@ -61,6 +61,7 @@ public class HelperCar extends HelperBase {
 
     public void searchCurrentMonth(String city, String dateFrom, String dateTo) {
         typeCity(city);
+        clearTextBox(By.id("dates"));
         click(By.id("dates"));
         //"1/25/2024", "1/28/2024"
         String[] from = dateFrom.split("/"); //["1"]["25"]["2024"]
@@ -74,6 +75,7 @@ public class HelperCar extends HelperBase {
 
     private void typeCity(String city) {
         type(By.id("city"), city);
+
         click(By.cssSelector("div.pac-item"));
     }
 
@@ -83,6 +85,7 @@ public class HelperCar extends HelperBase {
 
     public void searchCurrentYear(String city, String dateFrom, String dateTo) {
         typeCity(city);
+        clearTextBox(By.id("dates"));
         click(By.id("dates"));
 
         //"1/20/2024", "5/18/2024"
@@ -101,7 +104,7 @@ public class HelperCar extends HelperBase {
         }
         click(By.xpath("//div[text()=' " + from.getDayOfMonth() + " ']"));
 
-        diffMonth = to.getMonthValue() - from.getDayOfMonth();
+        diffMonth = to.getMonthValue() - from.getMonthValue();
         if (diffMonth > 0) {
             clickNextMonth(diffMonth);
         }
@@ -126,6 +129,7 @@ public class HelperCar extends HelperBase {
 //            clickNextYear(diffYear);
 //        }
         typeCity(city);
+        clearTextBox(By.id("dates"));
         click(By.id("dates"));
 
         LocalDate now = LocalDate.now();
@@ -172,4 +176,7 @@ public class HelperCar extends HelperBase {
     }
 
 
+    public void navigateByLogo() {
+        click(By.cssSelector("a.logo"));
+    }
 }
