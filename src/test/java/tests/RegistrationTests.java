@@ -11,7 +11,7 @@ import java.util.Random;
 
 public class RegistrationTests extends TestBase{
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preConditions() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
@@ -119,7 +119,7 @@ public class RegistrationTests extends TestBase{
 
 
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postConditions() {
         app.getHelperUser().clickOKButton();
 

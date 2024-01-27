@@ -1,0 +1,121 @@
+19:25:04.760  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+19:25:06.203  INFO  manager.ApplicationManager - The link --> https://ilcarro.web.app/search
+19:25:06.233  INFO  manager.WDListener - before find element By.xpath: //*[.=' Logout ']
+19:25:21.315  INFO  manager.WDListener - element found success By.xpath: //*[.=' Logout ']
+19:25:21.316  INFO  manager.WDListener - before find element By.xpath: //a[text()=' Log in ']
+19:25:21.346  INFO  manager.WDListener - element found success By.xpath: //a[text()=' Log in ']
+19:25:21.355  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> xpath: //a[text()=' Log in ']]
+19:25:21.466  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> xpath: //a[text()=' Log in ']]
+19:25:21.467  INFO  manager.WDListener - before find element By.id: email
+19:25:21.496  INFO  manager.WDListener - element found success By.id: email
+19:25:21.496  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: email]
+19:25:21.600  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: email]
+19:25:21.945  INFO  manager.WDListener - before find element By.id: password
+19:25:21.971  INFO  manager.WDListener - element found success By.id: password
+19:25:21.972  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: password]
+19:25:22.046  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: password]
+19:25:22.261  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+19:25:22.286  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+19:25:22.286  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> xpath: //button[@type='submit']]
+19:25:22.364  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> xpath: //button[@type='submit']]
+19:25:22.365  INFO  manager.WDListener - before find element By.xpath: //button[text()='Ok']
+19:25:23.593  INFO  manager.WDListener - element found success By.xpath: //button[text()='Ok']
+19:25:23.593  INFO  manager.WDListener - before find element By.xpath: //button[text()='Ok']
+19:25:23.620  INFO  manager.WDListener - element found success By.xpath: //button[text()='Ok']
+19:25:23.621  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> xpath: //button[text()='Ok']]
+19:25:23.687  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> xpath: //button[text()='Ok']]
+19:25:23.689  INFO  tests.TestBase - Before class --> User is logged in
+19:25:23.713  INFO  tests.TestBase - Name of method --> addNewCarSuccessAll
+19:25:23.717  INFO  tests.TestBase - Test data --> location: Tel Aviv, Israel & manufacture: Mazda & model: `M3` & year: `2022` & fuel: `Petrol` & seats: `4` & carClass: `C` & price: `50` & about: `Very nice car`
+19:25:24.222  INFO  manager.WDListener - before find element By.xpath: //a[text()=' Let the car work ']
+19:25:24.258  INFO  manager.WDListener - element found success By.xpath: //a[text()=' Let the car work ']
+19:25:24.259  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> xpath: //a[text()=' Let the car work ']]
+19:25:24.373  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> xpath: //a[text()=' Let the car work ']]
+19:25:24.373  INFO  manager.WDListener - before find element By.id: pickUpPlace
+19:25:24.396  INFO  manager.WDListener - element found success By.id: pickUpPlace
+19:25:24.398  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: pickUpPlace]
+19:25:24.472  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: pickUpPlace]
+19:25:24.732  INFO  manager.WDListener - before find element By.cssSelector: div.pac-item
+19:25:25.199  INFO  manager.WDListener - element found success By.cssSelector: div.pac-item
+19:25:25.199  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: div.pac-item]
+19:25:25.266  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: div.pac-item]
+19:25:25.267  INFO  manager.WDListener - before find element By.id: make
+19:25:25.297  INFO  manager.WDListener - element found success By.id: make
+19:25:25.298  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: make]
+19:25:25.367  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: make]
+19:25:25.577  INFO  manager.WDListener - before find element By.cssSelector: #model
+19:25:25.608  INFO  manager.WDListener - element found success By.cssSelector: #model
+19:25:25.609  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #model]
+19:25:25.680  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #model]
+19:25:25.868  INFO  manager.WDListener - before find element By.cssSelector: #year
+19:25:25.904  INFO  manager.WDListener - element found success By.cssSelector: #year
+19:25:25.904  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #year]
+19:25:25.973  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #year]
+19:25:26.215  INFO  manager.WDListener - before find element By.id: fuel
+19:25:26.245  INFO  manager.WDListener - element found success By.id: fuel
+19:25:26.288  INFO  manager.WDListener - before find element By.xpath: .//option[@value = "Petrol"]
+19:25:26.310  INFO  manager.WDListener - element found success By.xpath: .//option[@value = "Petrol"]
+19:25:26.326  INFO  manager.WDListener - start method click on element [[[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: fuel]] -> xpath: .//option[@value = "Petrol"]]
+19:25:26.375  INFO  manager.WDListener - method click is done on element[[[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: fuel]] -> xpath: .//option[@value = "Petrol"]]
+19:25:26.376  INFO  manager.WDListener - before find element By.id: seats
+19:25:26.402  INFO  manager.WDListener - element found success By.id: seats
+19:25:26.403  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: seats]
+19:25:26.480  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> id: seats]
+19:25:26.727  INFO  manager.WDListener - before find element By.cssSelector: #class
+19:25:26.761  INFO  manager.WDListener - element found success By.cssSelector: #class
+19:25:26.762  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #class]
+19:25:26.828  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #class]
+19:25:27.020  INFO  manager.WDListener - before find element By.cssSelector: #serialNumber
+19:25:27.045  INFO  manager.WDListener - element found success By.cssSelector: #serialNumber
+19:25:27.045  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #serialNumber]
+19:25:27.122  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #serialNumber]
+19:25:27.331  INFO  manager.WDListener - before find element By.cssSelector: #price
+19:25:27.357  INFO  manager.WDListener - element found success By.cssSelector: #price
+19:25:27.359  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #price]
+19:25:27.428  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #price]
+19:25:27.667  INFO  manager.WDListener - before find element By.cssSelector: #about
+19:25:27.699  INFO  manager.WDListener - element found success By.cssSelector: #about
+19:25:27.700  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #about]
+19:25:27.765  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (a5334790c2e481a8dd72619cc5c45763)] -> css selector: #about]
+19:25:27.953  INFO  manager.WDListener - before find element By.id: #photos
+19:25:43.013  INFO  manager.WDListener - We have PROBLEMS!
+19:25:43.013  INFO  manager.WDListener - no such element: Unable to locate element: {"method":"css selector","selector":"#\#photos"}
+  (Session info: chrome=120.0.6099.224)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5334790c2e481a8dd72619cc5c45763
+*** Element info: {Using=id, value=#photos}
+19:25:43.014  INFO  manager.WDListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\#photos"}
+  (Session info: chrome=120.0.6099.224)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5334790c2e481a8dd72619cc5c45763
+*** Element info: {Using=id, value=#photos}
+19:25:43.379  INFO  manager.WDListener - This is the link to the screenshot with error --> src/test/resources/screenshots/screen-1543.png
+19:25:43.386  INFO  manager.WDListener - before find element By.xpath: //button[text()='Search cars']
+19:25:58.411  INFO  manager.WDListener - We have PROBLEMS!
+19:25:58.411  INFO  manager.WDListener - no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=120.0.6099.224)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5334790c2e481a8dd72619cc5c45763
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}
+19:25:58.412  INFO  manager.WDListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//button[text()='Search cars']"}
+  (Session info: chrome=120.0.6099.224)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60973}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a5334790c2e481a8dd72619cc5c45763
+*** Element info: {Using=xpath, value=//button[text()='Search cars']}
+19:25:58.801  INFO  manager.WDListener - This is the link to the screenshot with error --> src/test/resources/screenshots/screen-1558.png

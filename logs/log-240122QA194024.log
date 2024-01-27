@@ -1,0 +1,37 @@
+19:40:27.030  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+19:40:28.667  INFO  manager.ApplicationManager - The link --> https://ilcarro.web.app/search
+19:40:28.710  INFO  tests.TestBase - Name of method --> negativeSearch
+19:40:28.711  INFO  manager.WDListener - before find element By.cssSelector: a.logo
+19:40:28.745  INFO  manager.WDListener - element found success By.cssSelector: a.logo
+19:40:28.752  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> css selector: a.logo]
+19:40:29.183  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> css selector: a.logo]
+19:40:29.185  INFO  manager.WDListener - before find element By.id: city
+19:40:29.215  INFO  manager.WDListener - element found success By.id: city
+19:40:29.216  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> id: city]
+19:40:29.290  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> id: city]
+19:40:29.557  INFO  manager.WDListener - before find element By.cssSelector: div.pac-item
+19:40:30.227  INFO  manager.WDListener - element found success By.cssSelector: div.pac-item
+19:40:30.228  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> css selector: div.pac-item]
+19:40:30.307  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> css selector: div.pac-item]
+19:40:30.308  INFO  manager.WDListener - before find element By.id: dates
+19:40:30.337  INFO  manager.WDListener - element found success By.id: dates
+19:40:30.468  INFO  manager.WDListener - before find element By.id: dates
+19:40:30.486  INFO  manager.WDListener - element found success By.id: dates
+19:40:30.487  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> id: dates]
+19:40:30.664  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> id: dates]
+19:40:31.003  INFO  manager.WDListener - before find element By.cssSelector: div.cdk-overlay-backdrop
+19:40:31.036  INFO  manager.WDListener - element found success By.cssSelector: div.cdk-overlay-backdrop
+19:40:31.036  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> css selector: div.cdk-overlay-backdrop]
+19:40:31.115  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> css selector: div.cdk-overlay-backdrop]
+19:40:31.115  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+19:40:31.145  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+19:40:31.146  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> xpath: //button[@type='submit']]
+19:40:31.213  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (f232f52e1122db1ba5507aa97f2e6e0f)] -> xpath: //button[@type='submit']]
+19:40:31.213  INFO  manager.WDListener - before find element By.cssSelector: button[disabled]
+19:40:31.241  INFO  manager.WDListener - element found success By.cssSelector: button[disabled]
+19:40:31.241  INFO  manager.WDListener - before find element By.cssSelector: button[type='submit']
+19:40:31.264  INFO  manager.WDListener - element found success By.cssSelector: button[type='submit']
+19:40:31.277  INFO  manager.WDListener - before find element By.cssSelector: div.ng-star-inserted
+19:40:31.296  INFO  manager.WDListener - element found success By.cssSelector: div.ng-star-inserted
+19:40:31.316  INFO  manager.WDListener - get text from element with text: You can't pick date before today
+19:40:31.330  INFO  manager.WDListener - got the text is successful

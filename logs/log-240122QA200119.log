@@ -1,0 +1,66 @@
+20:01:22.188  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+20:01:24.672  INFO  manager.ApplicationManager - The link --> https://ilcarro.web.app/search
+20:01:24.735  INFO  tests.TestBase - Name of method --> loginSuccessModelDP
+20:01:24.737  INFO  manager.WDListener - before find element By.xpath: //*[.=' Logout ']
+20:01:39.828  INFO  manager.WDListener - element found success By.xpath: //*[.=' Logout ']
+20:01:39.831  INFO  tests.TestBase - Test data --> User{firstName='null', lastName='null', email='margagmail.com', password='Mmar123456$'}
+20:01:39.831  INFO  manager.WDListener - before find element By.xpath: //a[text()=' Log in ']
+20:01:39.904  INFO  manager.WDListener - element found success By.xpath: //a[text()=' Log in ']
+20:01:39.915  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> xpath: //a[text()=' Log in ']]
+20:01:40.045  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> xpath: //a[text()=' Log in ']]
+20:01:40.047  INFO  manager.WDListener - before find element By.id: email
+20:01:40.090  INFO  manager.WDListener - element found success By.id: email
+20:01:40.090  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> id: email]
+20:01:40.221  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> id: email]
+20:01:40.550  INFO  manager.WDListener - before find element By.id: password
+20:01:40.575  INFO  manager.WDListener - element found success By.id: password
+20:01:40.576  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> id: password]
+20:01:40.651  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> id: password]
+20:01:40.879  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+20:01:40.902  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+20:01:40.902  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> xpath: //button[@type='submit']]
+20:01:40.976  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> xpath: //button[@type='submit']]
+20:01:40.976  INFO  manager.WDListener - before find element By.cssSelector: .dialog-container>h2
+20:01:56.058  INFO  manager.WDListener - We have PROBLEMS!
+20:01:56.060  INFO  manager.WDListener - no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container>h2"}
+  (Session info: chrome=120.0.6099.224)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d45a1a71c41d4d0548383184f2a7853
+*** Element info: {Using=css selector, value=.dialog-container>h2}
+20:01:56.061  INFO  manager.WDListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":".dialog-container>h2"}
+  (Session info: chrome=120.0.6099.224)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62418}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d45a1a71c41d4d0548383184f2a7853
+*** Element info: {Using=css selector, value=.dialog-container>h2}
+20:01:57.235  INFO  manager.WDListener - This is the link to the screenshot with error --> src/test/resources/screenshots/screen-116.png
+20:01:57.239  INFO  manager.WDListener - before find element By.xpath: //button[text()='Ok']
+20:02:12.280  INFO  manager.WDListener - element found success By.xpath: //button[text()='Ok']
+20:02:12.281  INFO  tests.TestBase - Name of method --> loginSuccessModelDP
+20:02:12.283  INFO  manager.WDListener - before find element By.xpath: //*[.=' Logout ']
+20:02:27.336  INFO  manager.WDListener - element found success By.xpath: //*[.=' Logout ']
+20:02:27.337  INFO  tests.TestBase - Test data --> User{firstName='null', lastName='null', email='margagmail.com', password='Mmar123456$'}
+20:02:27.337  INFO  manager.WDListener - before find element By.xpath: //a[text()=' Log in ']
+20:02:27.372  INFO  manager.WDListener - element found success By.xpath: //a[text()=' Log in ']
+20:02:27.372  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> xpath: //a[text()=' Log in ']]
+20:02:27.489  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> xpath: //a[text()=' Log in ']]
+20:02:27.491  INFO  manager.WDListener - before find element By.id: email
+20:02:27.515  INFO  manager.WDListener - element found success By.id: email
+20:02:27.515  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> id: email]
+20:02:27.597  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> id: email]
+20:02:27.937  INFO  manager.WDListener - before find element By.id: password
+20:02:27.967  INFO  manager.WDListener - element found success By.id: password
+20:02:27.968  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> id: password]
+20:02:28.037  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> id: password]
+20:02:28.287  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+20:02:28.310  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+20:02:28.311  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> xpath: //button[@type='submit']]
+20:02:28.373  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (7d45a1a71c41d4d0548383184f2a7853)] -> xpath: //button[@type='submit']]
+20:02:28.373  INFO  manager.WDListener - before find element By.cssSelector: .dialog-container>h2

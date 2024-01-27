@@ -1,15 +1,21 @@
 package tests;
 
+import manager.DataProviderUser;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import tests.TestBase;
 
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
 public class LoginTests extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void preConditions() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
@@ -41,12 +47,12 @@ public class LoginTests extends TestBase {
     }
 
 
-    @Test
-    public void loginSuccess() {
+    @Test(dataProvider = "loginData", dataProviderClass = DataProviderUser.class)
+    public void loginSuccess(String email, String password) {
 
-        logger.info("Test data --> email: `marga@gmail.com` & password: `Mmar123456$`");
+        logger.info("Test data --> email: " + email + " & password: " + password);
         app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm("marga@gmail.com", "Mmar123456$");
+        app.getHelperUser().fillLoginForm(email, password);
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
@@ -55,11 +61,24 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
-    public void loginSuccessModel() {
-        logger.info("Test data --> email: `marga@gmail.com` & password: `Mmar123456$`");
+
+    @Test(dataProvider = "loginModel", dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModel(User user) {
+        logger.info("Test data --> " + user.toString());
         app.getHelperUser().openLoginForm();
-        app.getHelperUser().fillLoginForm("marga@gmail.com", "Mmar123456$");
+        app.getHelperUser().fillLoginForm(user);
+        app.getHelperUser().submit();
+        //Assert if element with text "Logged in success" is present
+        Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
+        //app.getHelperUser().clickOKButton();
+        logger.info("Assert check is Element button 'Log out' presents");
+
+    }
+    @Test(dataProvider = "loginFile", dataProviderClass = DataProviderUser.class)
+    public void loginSuccessModelDP(User user) {
+        logger.info("Test data --> " + user.toString());
+        app.getHelperUser().openLoginForm();
+        app.getHelperUser().fillLoginForm(user);
         app.getHelperUser().submit();
         //Assert if element with text "Logged in success" is present
         Assert.assertEquals(app.getHelperUser().getMessage(), "Logged in success");
@@ -68,7 +87,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void loginWrongEmail() {
         logger.info("Test data --> email: `margagmail.com` & password: `Mmar123456$`");
         app.getHelperUser().openLoginForm();
@@ -101,7 +120,7 @@ public class LoginTests extends TestBase {
     }
 
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postConditions() {
         app.getHelperUser().clickOKButton();
 

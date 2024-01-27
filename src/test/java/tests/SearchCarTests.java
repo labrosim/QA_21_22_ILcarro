@@ -13,7 +13,7 @@ import java.util.Date;
 public class SearchCarTests extends TestBase {
     @Test
     public void searchCurrentMonthSuccess() {
-        app.getHelperCar().searchCurrentMonth("Tel Aviv, Israel", "1/20/2024", "1/28/2024");
+        app.getHelperCar().searchCurrentMonth("Tel Aviv, Israel", "1/22/2024", "1/28/2024");
         app.getHelperCar().getScreen("src/test/resources/screenshots/currentMonth");
         app.getHelperCar().submit();
         Assert.assertTrue(app.getHelperCar().isListOfCarsAppeared());
@@ -37,7 +37,15 @@ public class SearchCarTests extends TestBase {
 
         Assert.assertTrue(app.getHelperCar().isListOfCarsAppeared());
     }
-    @BeforeMethod
+    @Test
+    public void negativeSearch(){
+        app.getHelperCar().searchNotValidPeriod("Tel Aviv", "1/18/2024", "1/23/2024");
+        app.getHelperCar().submit();
+        Assert.assertTrue(app.getHelperCar().isYallaButtonNotActive());
+        Assert.assertTrue(app.getHelperCar().isErrorDisplayed("You can't pick date before today"));
+
+    }
+    @BeforeMethod(alwaysRun = true)
     public void postCondition(){
         app.getHelperCar().navigateByLogo();
     }

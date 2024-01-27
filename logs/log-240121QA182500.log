@@ -1,0 +1,184 @@
+18:25:03.423  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:25:05.010  INFO  manager.ApplicationManager - The link --> https://ilcarro.web.app/search
+18:25:05.056  INFO  tests.TestBase - Name of method --> negativeSearch
+18:25:05.058  INFO  manager.WDListener - before find element By.cssSelector: a.logo
+18:25:05.087  INFO  manager.WDListener - element found success By.cssSelector: a.logo
+18:25:05.094  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: a.logo]
+18:25:05.581  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: a.logo]
+18:25:05.584  INFO  manager.WDListener - before find element By.id: city
+18:25:05.612  INFO  manager.WDListener - element found success By.id: city
+18:25:05.613  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: city]
+18:25:05.699  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: city]
+18:25:05.945  INFO  manager.WDListener - before find element By.cssSelector: div.pac-item
+18:25:06.292  INFO  manager.WDListener - element found success By.cssSelector: div.pac-item
+18:25:06.292  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: div.pac-item]
+18:25:06.354  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: div.pac-item]
+18:25:06.355  INFO  manager.WDListener - before find element By.id: dates
+18:25:06.374  INFO  manager.WDListener - element found success By.id: dates
+18:25:06.500  INFO  manager.WDListener - before find element By.id: dates
+18:25:06.524  INFO  manager.WDListener - element found success By.id: dates
+18:25:06.524  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: dates]
+18:25:06.681  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: dates]
+18:25:06.980  INFO  manager.WDListener - before find element By.cssSelector: div.cdk-overlay-backdrop
+18:25:07.001  INFO  manager.WDListener - element found success By.cssSelector: div.cdk-overlay-backdrop
+18:25:07.001  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: div.cdk-overlay-backdrop]
+18:25:07.082  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: div.cdk-overlay-backdrop]
+18:25:07.082  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+18:25:07.109  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+18:25:07.109  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //button[@type='submit']]
+18:25:07.177  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //button[@type='submit']]
+18:25:07.177  INFO  manager.WDListener - before find element By.cssSelector: button[disabled]
+18:25:07.243  INFO  manager.WDListener - element found success By.cssSelector: button[disabled]
+18:25:07.244  INFO  manager.WDListener - before find element By.cssSelector: button[type='submit']
+18:25:07.263  INFO  manager.WDListener - element found success By.cssSelector: button[type='submit']
+18:25:07.277  INFO  manager.WDListener - before find element By.cssSelector: div.ng-star-inserted
+18:25:07.311  INFO  manager.WDListener - element found success By.cssSelector: div.ng-star-inserted
+18:25:07.334  INFO  manager.WDListener - get text from element with text: You can't pick date before today
+18:25:07.348  INFO  manager.WDListener - got the text is successful
+18:25:07.354  INFO  tests.TestBase - Name of method --> searchAnyPeriodSuccess
+18:25:07.355  INFO  manager.WDListener - before find element By.cssSelector: a.logo
+18:25:07.382  INFO  manager.WDListener - element found success By.cssSelector: a.logo
+18:25:07.383  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: a.logo]
+18:25:07.651  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: a.logo]
+18:25:07.652  INFO  manager.WDListener - before find element By.id: city
+18:25:07.682  INFO  manager.WDListener - element found success By.id: city
+18:25:07.683  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: city]
+18:25:07.768  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: city]
+18:25:08.025  INFO  manager.WDListener - before find element By.cssSelector: div.pac-item
+18:25:08.310  INFO  manager.WDListener - element found success By.cssSelector: div.pac-item
+18:25:08.310  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: div.pac-item]
+18:25:08.356  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: div.pac-item]
+18:25:08.358  INFO  manager.WDListener - before find element By.id: dates
+18:25:08.385  INFO  manager.WDListener - element found success By.id: dates
+18:25:08.495  INFO  manager.WDListener - before find element By.id: dates
+18:25:08.513  INFO  manager.WDListener - element found success By.id: dates
+18:25:08.514  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: dates]
+18:25:08.635  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: dates]
+18:25:08.667  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:08.691  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:08.692  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:08.798  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:08.798  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:08.813  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:08.814  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:08.911  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:08.912  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:08.937  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:08.937  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.011  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.011  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:09.033  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:09.035  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.101  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.101  INFO  manager.WDListener - before find element By.xpath: //div[text()=' 1 ']
+18:25:09.136  INFO  manager.WDListener - element found success By.xpath: //div[text()=' 1 ']
+18:25:09.137  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //div[text()=' 1 ']]
+18:25:09.228  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //div[text()=' 1 ']]
+18:25:09.229  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:09.256  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:09.257  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.339  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.339  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:09.363  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:09.364  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.433  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.434  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:09.455  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:09.456  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.536  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.536  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:09.553  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:09.553  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.635  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.636  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:09.660  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:09.660  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.732  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.732  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:09.753  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:09.754  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.828  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.828  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:09.850  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:09.850  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.936  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:09.936  INFO  manager.WDListener - before find element By.cssSelector: button[aria-label ='Next month']
+18:25:09.956  INFO  manager.WDListener - element found success By.cssSelector: button[aria-label ='Next month']
+18:25:09.956  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:10.034  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: button[aria-label ='Next month']]
+18:25:10.034  INFO  manager.WDListener - before find element By.xpath: //div[text()=' 2 ']
+18:25:10.060  INFO  manager.WDListener - element found success By.xpath: //div[text()=' 2 ']
+18:25:10.060  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //div[text()=' 2 ']]
+18:25:10.147  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //div[text()=' 2 ']]
+18:25:11.336  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+18:25:11.352  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+18:25:11.352  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //button[@type='submit']]
+18:25:11.464  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //button[@type='submit']]
+18:25:11.465  INFO  manager.WDListener - before find element By.cssSelector: a.car-container
+18:25:15.148  INFO  manager.WDListener - element found success By.cssSelector: a.car-container
+18:25:15.169  INFO  tests.TestBase - Name of method --> searchCurrentMonthSuccess
+18:25:15.170  INFO  manager.WDListener - before find element By.cssSelector: a.logo
+18:25:15.188  INFO  manager.WDListener - element found success By.cssSelector: a.logo
+18:25:15.188  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: a.logo]
+18:25:15.595  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: a.logo]
+18:25:15.596  INFO  manager.WDListener - before find element By.id: city
+18:25:15.624  INFO  manager.WDListener - element found success By.id: city
+18:25:15.625  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: city]
+18:25:15.683  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: city]
+18:25:15.973  INFO  manager.WDListener - before find element By.cssSelector: div.pac-item
+18:25:15.996  INFO  manager.WDListener - element found success By.cssSelector: div.pac-item
+18:25:15.996  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: div.pac-item]
+18:25:16.043  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: div.pac-item]
+18:25:16.043  INFO  manager.WDListener - before find element By.id: dates
+18:25:16.058  INFO  manager.WDListener - element found success By.id: dates
+18:25:16.162  INFO  manager.WDListener - before find element By.id: dates
+18:25:16.184  INFO  manager.WDListener - element found success By.id: dates
+18:25:16.184  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: dates]
+18:25:16.292  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> id: dates]
+18:25:16.292  INFO  manager.WDListener - before find element By.xpath: //div[text()=' 20 ']
+18:25:16.315  INFO  manager.WDListener - element found success By.xpath: //div[text()=' 20 ']
+18:25:16.315  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //div[text()=' 20 ']]
+18:25:16.388  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //div[text()=' 20 ']]
+18:25:16.388  INFO  manager.WDListener - before find element By.xpath: //div[text()=' 28 ']
+18:25:16.429  INFO  manager.WDListener - element found success By.xpath: //div[text()=' 28 ']
+18:25:16.429  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //div[text()=' 28 ']]
+18:25:16.520  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //div[text()=' 28 ']]
+18:25:17.616  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+18:25:17.643  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+18:25:17.643  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> xpath: //button[@type='submit']]
+18:25:18.727  INFO  manager.WDListener - We have PROBLEMS!
+18:25:18.728  INFO  manager.WDListener - element click intercepted: Element <button _ngcontent-rbr-c106="" type="submit" disabled="">...</button> is not clickable at point (244, 429). Other element would receive the click: <button mat-button="" type="button" cdkarialive="polite" class="mat-focus-indicator mat-calendar-period-button mat-button mat-button-base" ng-reflect-politeness="polite" aria-label="Choose month and year">...</button>
+  (Session info: chrome=120.0.6099.224)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: afba847be4380468a44ca474b0910b9f
+18:25:18.728  INFO  manager.WDListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-rbr-c106="" type="submit" disabled="">...</button> is not clickable at point (244, 429). Other element would receive the click: <button mat-button="" type="button" cdkarialive="polite" class="mat-focus-indicator mat-calendar-period-button mat-button mat-button-base" ng-reflect-politeness="polite" aria-label="Choose month and year">...</button>
+  (Session info: chrome=120.0.6099.224)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: afba847be4380468a44ca474b0910b9f
+18:25:19.795  INFO  manager.WDListener - This is the link to the screenshot with error --> src/test/resources/screenshots/screen-1518.png
+18:25:19.798  INFO  tests.TestBase - Name of method --> searchCurrentYearSuccess
+18:25:19.799  INFO  manager.WDListener - before find element By.cssSelector: a.logo
+18:25:19.811  INFO  manager.WDListener - element found success By.cssSelector: a.logo
+18:25:19.811  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (afba847be4380468a44ca474b0910b9f)] -> css selector: a.logo]
+18:25:20.866  INFO  manager.WDListener - We have PROBLEMS!
+18:25:20.866  INFO  manager.WDListener - element click intercepted: Element <a _ngcontent-rbr-c44="" href="/" class="logo">...</a> is not clickable at point (262, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.224)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: afba847be4380468a44ca474b0910b9f
+18:25:20.867  INFO  manager.WDListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <a _ngcontent-rbr-c44="" href="/" class="logo">...</a> is not clickable at point (262, 34). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=120.0.6099.224)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54432}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: afba847be4380468a44ca474b0910b9f
+18:25:21.886  INFO  manager.WDListener - This is the link to the screenshot with error --> src/test/resources/screenshots/screen-1520.png

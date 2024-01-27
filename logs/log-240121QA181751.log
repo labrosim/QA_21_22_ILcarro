@@ -1,0 +1,40 @@
+18:17:55.770  INFO  manager.ApplicationManager - All tests run in Chrome Browser
+18:17:57.233  INFO  manager.ApplicationManager - The link --> https://ilcarro.web.app/search
+18:17:57.279  INFO  tests.TestBase - Name of method --> negativeSearch
+18:17:57.281  INFO  manager.WDListener - before find element By.cssSelector: a.logo
+18:17:57.314  INFO  manager.WDListener - element found success By.cssSelector: a.logo
+18:17:57.326  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (64ce95577c1eecd33c694a43786147d0)] -> css selector: a.logo]
+18:17:57.808  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (64ce95577c1eecd33c694a43786147d0)] -> css selector: a.logo]
+18:17:57.812  INFO  manager.WDListener - before find element By.id: city
+18:17:57.843  INFO  manager.WDListener - element found success By.id: city
+18:17:57.844  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (64ce95577c1eecd33c694a43786147d0)] -> id: city]
+18:17:57.929  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (64ce95577c1eecd33c694a43786147d0)] -> id: city]
+18:17:58.190  INFO  manager.WDListener - before find element By.cssSelector: div.pac-item
+18:17:58.598  INFO  manager.WDListener - element found success By.cssSelector: div.pac-item
+18:17:58.599  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (64ce95577c1eecd33c694a43786147d0)] -> css selector: div.pac-item]
+18:17:58.675  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (64ce95577c1eecd33c694a43786147d0)] -> css selector: div.pac-item]
+18:17:58.675  INFO  manager.WDListener - before find element By.id: dates
+18:17:58.702  INFO  manager.WDListener - element found success By.id: dates
+18:17:58.836  INFO  manager.WDListener - before find element By.id: dates
+18:17:58.854  INFO  manager.WDListener - element found success By.id: dates
+18:17:58.854  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (64ce95577c1eecd33c694a43786147d0)] -> id: dates]
+18:17:59.055  INFO  manager.WDListener - method click is done on element[[ChromeDriver: chrome on WINDOWS (64ce95577c1eecd33c694a43786147d0)] -> id: dates]
+18:17:59.414  INFO  manager.WDListener - before find element By.xpath: //button[@type='submit']
+18:17:59.452  INFO  manager.WDListener - element found success By.xpath: //button[@type='submit']
+18:17:59.452  INFO  manager.WDListener - start method click on element [[ChromeDriver: chrome on WINDOWS (64ce95577c1eecd33c694a43786147d0)] -> xpath: //button[@type='submit']]
+18:18:00.545  INFO  manager.WDListener - We have PROBLEMS!
+18:18:00.546  INFO  manager.WDListener - element click intercepted: Element <button _ngcontent-qad-c106="" type="submit" disabled="">...</button> is not clickable at point (244, 429). Other element would receive the click: <button mat-button="" type="button" cdkarialive="polite" class="mat-focus-indicator mat-calendar-period-button mat-button mat-button-base" ng-reflect-politeness="polite" aria-label="Choose month and year">...</button>
+  (Session info: chrome=120.0.6099.224)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64ce95577c1eecd33c694a43786147d0
+18:18:00.547  INFO  manager.WDListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-qad-c106="" type="submit" disabled="">...</button> is not clickable at point (244, 429). Other element would receive the click: <button mat-button="" type="button" cdkarialive="polite" class="mat-focus-indicator mat-calendar-period-button mat-button mat-button-base" ng-reflect-politeness="polite" aria-label="Choose month and year">...</button>
+  (Session info: chrome=120.0.6099.224)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ALEXPC', ip: '10.100.102.19', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.224, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: C:\Users\Alex\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54085}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 64ce95577c1eecd33c694a43786147d0
+18:18:01.730  INFO  manager.WDListener - This is the link to the screenshot with error --> src/test/resources/screenshots/screen-1080.png
