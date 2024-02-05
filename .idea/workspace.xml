@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5540d00-59fc-416d-994e-2f39725deadd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/DataProviderCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/manager/DataProviderUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/datas.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/manager/HelperCar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/AddNewCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/AddNewCarTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/LoginTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/SearchCarTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/SearchCarTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/currentAny" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/screenshots/currentAny" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/currentMonth" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/screenshots/currentMonth" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/currentYear" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/screenshots/currentYear" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screen-1104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screen-1175.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screen-1209.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screen-1581.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screen-2640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screen-2660.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/screenshots/screen-954.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
